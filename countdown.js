@@ -1,21 +1,24 @@
-let output = document.querySelector('.output');
+/*let output = document.querySelector('.output');
 output.textContent = "";
 
 function countdown() {
-    for(let i = 10; i >= 0; i--) {
+    for(let i = 10; i > 0; i--) {
         const para = document.createElement('p');
         
         if(i === 10) {
             para.textContent = `Countdown \${i}`;
         }
-        else if(i > 0){
-            para.textContent = i;
+        else if(i === 0){
+            para.textContent = "Blast off!";
         }
         else {
-            para.textContent = "Blast off!"
+            para.textContent = i;
         }
         output.appendChild(para);
     }
 }
 
-countdown();
+countdown();*/
+
+let output = document.querySelector('.output');
+output.innerHTML = "<p>Hey!</p>"
