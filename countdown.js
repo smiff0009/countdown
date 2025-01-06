@@ -10,7 +10,9 @@ function addText() {
 */
 
 
-btn.addEventListener("click", addText(){
+btn.addEventListener("click", addText);
+
+function addText() {
     output.appendChild(para);
     para.textContent = "You clicked me!";
-});  
+}
