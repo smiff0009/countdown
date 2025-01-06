@@ -12,7 +12,7 @@ for(let i = 10; i >= 0; i--) {
     else {
         para.textContent = i;
     }
-    output.appendChild(para), 1000);
+    output.appendChild(para);
     }
 }
     }
