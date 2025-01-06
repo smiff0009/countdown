@@ -1,7 +1,9 @@
 const output = document.querySelector('.output');
-for(i = 10; i >= 0; i--) {
+for(let i = 10; i >= 0; i--) {
     const para = document.createElement('p');
-    if(i === 10) {
+    setTimeout(count, 1000) {
+    function count() {
+        if(i === 10) {
         para.textContent = `Countdown ${i}`;
     }
     else if (i === 0) {
@@ -10,5 +12,10 @@ for(i = 10; i >= 0; i--) {
     else {
         para.textContent = i;
     }
-    output.setTimeout(appendChild(para), 1000);
+    output.appendChild(para), 1000);
     }
+}
+    }
+
+
+    
