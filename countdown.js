@@ -20,5 +20,7 @@ function countdown() {
 
 countdown();*/
 
-let output = document.querySelector('.output');
-output.innerHTML = "<p>Hey!</p>"
+let output = document.querySelector(".output");
+let output2 = document.querySelector(div);
+output.textContent = "Test";
+output2.textContent = "Test 2";
