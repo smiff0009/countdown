@@ -1,4 +1,4 @@
-const output = document.querySelector('.output');
+let output = document.querySelector('.output');
 output.textContent = "";
 
 function countdown() {
