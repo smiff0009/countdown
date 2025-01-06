@@ -20,7 +20,7 @@ function countdown() {
 
 countdown();*/
 
-const output = document.querySelector('.output');
+const output = document.getElementById("output");
 output.textContent = "";
 
 let i = 10;
@@ -40,3 +40,4 @@ while (i >= 10) {
 
     i--;
 };
+
