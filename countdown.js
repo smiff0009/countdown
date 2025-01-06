@@ -8,7 +8,9 @@ function addText() {
     para.textContent = "You clicked me!";
 }
 */
-btn.addEventListener("click", addText()){
+
+
+btn.addEventListener("click", addText(){
     output.appendChild(para);
     para.textContent = "You clicked me!";
-};  
+});  
