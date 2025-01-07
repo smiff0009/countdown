@@ -15,7 +15,7 @@ const refused = document.querySelector('.refused');
 admitted.textContent = 'Admit: ';
 refused.textContent = 'Refuse: ';
 
-for i in people(let i = 0; i < people.length; i++) {
+for (let i = 0; i < people.length; i++) {
     if(people[i] === 'Phil' || people[i] === 'Lola') {
         refused.textContent += people[i];
     }
