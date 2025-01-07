@@ -1,18 +1,25 @@
+const people = [
+    'Chris', 
+    'Anne', 
+    'Colin', 
+    'Terri', 
+    'Phil', 
+    'Lola', 
+    'Sam', 
+    'Kay', 
+    'Bruce'
+];
 
-const output = document.querySelector('.output');
-const para = document.createElement('p');
-const btn = document.querySelector('.click')
-/*
-function addText() {
-    output.appendChild(para);
-    para.textContent = "You clicked me!";
-}
-*/
+const admitted = document.querySelector('.admitted');
+const refused = document.querySelector('.refused');
+admitted.textContent = 'Admit: ';
+refused.textContent = 'Refuse: ';
 
-
-btn.addEventListener("click", addText);
-
-function addText() {
-    output.appendChild(para);
-    para.textContent = "You clicked me!";
+for i in people(let i = 0; i < people.length; i++) {
+    if(people[i] === 'Phil' || people[i] === 'Lola') {
+        refused.textContent += people[i];
+    }
+    else {
+        admitted.textContent += people[i];
+    }
 }
