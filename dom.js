@@ -5,13 +5,13 @@ para.style.color = "red";
 body.appendChild(para);
 
 const h3 = document.createElement("h3");
-h3.style.color = blue;
+h3.style.color = "blue";
 h3.textContent = "I'm a blue h3!";
 body.appendChild(h3);
 
 const div = document.createElement("div");
-div.style.border = black;
-div.style.backgroundColor = pink;
+div.style.border = "black";
+div.style.backgroundColor = "pink";
 
 
 const h1 = document.createElement("h1");
